@@ -1,13 +1,13 @@
 # yesml - YAML, but proper
 
-⚠️ WIP ⚠️
+⚠️ WIP: Expect git history rewrites. Don't import anything. Don't trust anything written here. No guarantees whatsoever. ⚠️
 
 yesml is a strict subset of YAML focussed on being both human and machine writable without losing anything important.
 
 It does this by:
 
 - preserving non-semantic content like spacing and comments
-- eliminating as many stylistic choices as possible (enforcing a style)
+- eliminating as many pointless "personal preference" stylistic choices as possible (enforcing a style)
 - requiring a reference to a schema
 
 # Why YAML?
