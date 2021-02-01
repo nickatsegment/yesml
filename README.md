@@ -1,1 +1,17 @@
-# yesml
+# yesml - YAML, but proper
+
+⚠️ WIP ⚠️
+
+yesml is a strict subset of YAML focussed on being both human and machine writable without losing anything important.
+
+It does this by:
+
+- preserving non-semantic content like spacing and comments
+- eliminating as many stylistic choices as possible (enforcing a style)
+- requiring a reference to a schema
+
+# Why YAML?
+
+Personally I prefer HCL(2). But practically, YAML is used everywhere, and HCL is not. Famously, when Github implemented actions, they switched away from HCL in the beta to only YAML in the GA. (If anyone has the details on UX studies or whatever that led to this decision, I am super keen.)
+
+The thesis of yesml is that we can get a lot of the nice parts of HCL while still supporting the 65 gajillion applications that take YAML input.
