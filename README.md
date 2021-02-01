@@ -10,6 +10,8 @@ It does this by:
 - eliminating as many pointless "personal preference" stylistic choices as possible (enforcing a style)
 - requiring a reference to a schema
 
+Specifically: yesml-compliant parsers must be able to round-trip a yesml-compliant document *including stylistic content*. Most extant YAML parsers are not capable of this nor designed to do such a thing. 
+
 # Why YAML?
 
 Personally I prefer HCL(2). But practically, YAML is used everywhere, and HCL is not. Famously, when Github implemented actions, they switched away from HCL in the beta to only YAML in the GA. (If anyone has the details on UX studies or whatever that led to this decision, I am super keen.)
