@@ -1,0 +1,14 @@
+%YAML 1.2
+%yesml 0.1
+---
+map:
+  # should get normalized to unquoted string, since it
+  # looks like a struct field
+  structy:
+    a: "a"
+  # should be double-quoted, since `womp womp` doesn't
+  # look like a struct field
+  oneNonStructyField:
+    "foo": "foo"
+    "barBaz": "barBaz"
+    "womp womp": "womp womp"
