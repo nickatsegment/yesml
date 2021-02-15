@@ -1,4 +1,3 @@
----
 map:
   # should get normalized to unquoted string, since it
   # looks like a struct field

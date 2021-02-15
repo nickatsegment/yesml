@@ -1,0 +1,3 @@
+map: !!yaml |
+  foo: "foo"
+  bar: "bar"
